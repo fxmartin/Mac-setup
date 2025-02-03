@@ -56,9 +56,6 @@ https://medium.com/marvelous-mlops/the-rightway-to-install-python-on-a-mac-f3146
 brew install git
 brew install pyenv pyenv-virtualenv
 pyenv install 3.12.6
-
-```
-```
 brew install --cask visual-studio-code
 brew install docker
 brew install --cask ollama
