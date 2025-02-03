@@ -26,7 +26,7 @@
 xcode-select –-install
 ```
 
-## Install Howbrew
+## Install Homebrew
 ```
 https://brew.sh/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -67,6 +67,10 @@ ollama pull qwen2.5-coder:7b
 ollama pull deepseek-r1:7b
 ollama pull qwen2.5:14b
 ```
+https://github.com/vladkens/macmon
+```
+brew install macmon
+```
 **Test Ollama**
 ```
 ollama run deepseek-r1:7b
@@ -90,6 +94,10 @@ brew install --cask dropbox
 brew install --cask onyx
 brew install --cask kindle
 brew install --cask keka
+brew install --cask chatgpt
+brew install mas
+# Install Perplexity.ai
+mas install 6714467650
 ```
 ### Install Communication packages
 ```
