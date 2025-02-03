@@ -20,3 +20,88 @@
 - Customize desktop and dock
 - Configure control center
 - Adjust display and appearance settings
+
+## Install XCode
+```
+xcode-select –-install
+```
+
+## Install Howbrew
+```
+https://brew.sh/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update
+brew upgrade
+```
+
+## Install packages
+```
+brew install --cask iterm2
+```
+https://medium.com/@luzhenna/getting-started-with-zsh-on-a-macbook-bd1c98c6f383
+
+Install ‘oh my zsh’ for the best terminal experience:
+https://ohmyz.sh/#install
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Install zsh-autosuggestions:
+https://github.com/zsh-users/zsh-autosuggestions
+```
+brew install fzf
+```
+### Install development packages
+https://medium.com/marvelous-mlops/the-rightway-to-install-python-on-a-mac-f3146d9d9a32
+```
+brew install pyenv pyenv-virtualenv
+pyenv install 3.12.6
+
+```
+```
+brew install --cask visual-studio-code
+brew install docker
+brew install --cask ollama
+ollama pull llama3
+ollama pull starcoder2:3b
+ollama pull qwen2.5-coder:7b
+ollama pull deepseek-r1:7b
+ollama pull qwen2.5:14b
+```
+**Test Ollama**
+```
+ollama run deepseek-r1:7b
+```
+**Install OpenWebUI**
+```
+docker pull ghcr.io/open-webui/open-webui:main
+```
+To bypass the login page for a single-user setup, set the WEBUI_AUTH environment variable to False:
+```
+docker run -d -p 3000:8080 -e WEBUI_AUTH=False -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
+```
+
+### Install utilities
+```
+brew install --cask 1password
+brew install --cask istat-menus
+brew install --cask little-snitch
+brew install --cask calibre
+brew install --cask dropbox
+brew install --cask onyx
+brew install --cask kindle
+brew install --cask keka
+```
+### Install Communication packages
+```
+brew install --cask zoom
+brew install --cask webex
+brew install --cask whatsapp
+brew install --cask alfred
+```
+### Install Office tasks
+```
+brew install --cask google-chrome
+brew install --cask vlc
+brew install --cask microsoft-office-businesspro
+brew install --cask gimp
+```
