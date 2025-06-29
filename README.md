@@ -91,7 +91,7 @@ brew install --cask little-snitch
 brew install --cask calibre
 brew install --cask dropbox
 brew install --cask onyx
-brew install --cask kindle
+Install Kindle with App Store
 brew install --cask keka
 brew install --cask chatgpt
 brew install mas
