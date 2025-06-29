@@ -57,7 +57,8 @@ brew install git
 brew install uv
 uv python install
 brew install --cask visual-studio-code
-brew install docker
+brew install podman-desktop
+https://nilesh93.medium.com/replacing-docker-desktop-with-podman-and-kind-in-macos-c750581a3fda
 brew install --cask ollama
 ollama pull llama3
 ollama pull starcoder2:3b
