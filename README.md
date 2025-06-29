@@ -54,6 +54,28 @@ brew install fzf
 (https://www.datacamp.com/tutorial/python-uv?dc_referrer=https%3A%2F%2Fwww.google.com%2F)
 ```
 brew install git
+```
+#### Set-up GIT
+```
+git config --global user.name "fxmartin"
+git config --global user.email "enteryourmailhere"
+git config --global core.editor code
+git config --global credential.helper osxkeychain
+git config --global --list
+ssh-keygen -t ed25519 -C "enteryourmailhere"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+Add the public key to your GitHub account:
+- Copy the contents of `~/.ssh/id_ed25519.pub`.
+- Go to GitHub Settings > SSH and GPG keys > New SSH key.
+- Paste your public key and save
+Clone a private repository
+```
+git clone git@github.com:username/repository.git
+```
+You will be prompted for your SSH key passphrase if you set one.
+```
 brew install uv
 uv python install
 brew install --cask visual-studio-code
