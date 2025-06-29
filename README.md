@@ -51,11 +51,11 @@ https://github.com/zsh-users/zsh-autosuggestions
 brew install fzf
 ```
 ### Install development packages
-https://medium.com/marvelous-mlops/the-rightway-to-install-python-on-a-mac-f3146d9d9a32
+(https://www.datacamp.com/tutorial/python-uv?dc_referrer=https%3A%2F%2Fwww.google.com%2F)
 ```
 brew install git
-brew install pyenv pyenv-virtualenv
-pyenv install 3.12.6
+brew install uv
+uv python install
 brew install --cask visual-studio-code
 brew install docker
 brew install --cask ollama
