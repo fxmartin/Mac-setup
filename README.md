@@ -119,7 +119,9 @@ brew install --cask chatgpt
 brew install mas
 # Install Perplexity.ai
 mas install 6714467650
+brew install --cask claude
 ```
+Install iMCP from (https://imcp.app/download)
 ### Install Communication packages
 ```
 brew install --cask zoom
@@ -129,7 +131,7 @@ brew install --cask alfred
 ```
 ### Install Office tasks
 ```
-brew install --cask google-chrome
+brew install --cask arc
 brew install --cask vlc
 brew install --cask microsoft-office-businesspro
 brew install --cask gimp
