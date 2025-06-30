@@ -120,6 +120,7 @@ brew install mas
 # Install Perplexity.ai
 mas install 6714467650
 brew install --cask claude
+brew install --cask nordvpn
 ```
 Install iMCP from (https://imcp.app/download)
 ### Install Communication packages
