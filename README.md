@@ -268,6 +268,40 @@ Learn more about Claude Code features and usage at [docs.anthropic.com/claude-co
 
 For best practices and advanced usage, see the [Claude Code Best Practices Guide](https://www.anthropic.com/engineering/claude-code-best-practices).
 
+### Claude Code Sessions
+
+Install Claude Code Sessions for structured development session management:
+
+```bash
+# Clone the repository
+git clone https://github.com/iannuttall/claude-sessions.git
+
+# Copy commands to your project (adjust path as needed)
+cp -r claude-sessions/commands your-project/.claude/commands
+
+# Create session directory if it doesn't exist
+mkdir -p .claude/sessions
+touch .claude/sessions/.current-session
+
+# Optional: Add sessions to .gitignore for private session tracking
+echo "sessions/" >> .gitignore
+```
+
+Available session commands:
+- `/project:session-start [name]` - Begin a new development session
+- `/project:session-update [notes]` - Add progress updates to current session
+- `/project:session-end` - Conclude session with comprehensive summary
+- `/project:session-current` - View current session status
+- `/project:session-list` - List all past sessions
+
+Features:
+- Document development progress and code changes
+- Track problem-solving steps and decisions
+- Transfer knowledge between coding sessions
+- Maintain structured development history
+
+Learn more at [Claude Sessions GitHub](https://github.com/iannuttall/claude-sessions).
+
 ### Claude Usage Monitoring
 
 Monitor your Claude token usage with the Claude Code Usage Monitor tool:
