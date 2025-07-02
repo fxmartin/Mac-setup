@@ -412,7 +412,11 @@ mas install 302584613  # Kindle
 Install Perplexity.ai:
 ```bash
 mas install 6714467650
+brew install --cask claude             # Claude desktop app
+brew install --cask nordvpn            # VPN service
 ```
+
+Install iMCP from [imcp.app/download](https://imcp.app/download)
 
 ## Communication Tools
 
@@ -426,6 +430,7 @@ brew install --cask alfred             # Productivity launcher
 ## Productivity Applications
 
 ```bash
+brew install --cask arc                        # Modern web browser
 brew install --cask google-chrome              # Web browser
 brew install --cask vlc                        # Media player
 brew install --cask microsoft-office-businesspro  # Office suite
