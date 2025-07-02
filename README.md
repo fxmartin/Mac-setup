@@ -348,6 +348,25 @@ Features:
 
 Learn more at [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor).
 
+### Context7 MCP
+
+Install Context7 MCP for up-to-date code documentation in Claude Code:
+
+```bash
+# Remote server connection (recommended)
+claude mcp add --transport http context7 https://mcp.context7.com/mcp
+
+# Alternative SSE transport
+claude mcp add --transport sse context7 https://mcp.context7.com/sse
+
+# Local server connection (requires Node.js 18.0.0+)
+claude mcp add context7 -- npx -y @upstash/context7-mcp
+```
+
+Context7 provides real-time, version-specific documentation for programming libraries. Add "use context7" to your coding prompts to fetch current documentation.
+
+Learn more at [Context7 GitHub](https://github.com/upstash/context7).
+
 For Docker alternative setup with Podman, see [this guide](https://nilesh93.medium.com/replacing-docker-desktop-with-podman-and-kind-in-macos-c750581a3fda).
 
 ### System Monitoring
