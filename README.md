@@ -216,7 +216,7 @@ brew upgrade
 ### Terminal Setup
 Install iTerm2 and configure for the best terminal experience:
 ```bash
-brew install --cask iterm2
+brew install --cask iterm2          # Advanced terminal emulator with split panes and customization
 ```
 
 Install Oh My Zsh for enhanced shell experience:
@@ -226,21 +226,21 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Install additional terminal tools:
 ```bash
-brew install fzf
+brew install fzf                    # Command-line fuzzy finder for files and history
 ```
 
-For zsh-autosuggestions, follow the [official guide](https://github.com/zsh-users/zsh-autosuggestions).
+For zsh-autosuggestions, follow the [official guide](https://github.com/zsh-users/zsh-autosuggestions) to enable command autocompletion based on history.
 
 ### Development Tools
 ```bash
-# Python environment manager
+# Python environment manager - fast Python package installer and resolver
 brew install uv
 uv python install
 
-# Code editor
+# Code editor - extensible source code editor with rich ecosystem
 brew install --cask visual-studio-code
 
-# Container management
+# Container management - desktop application for managing containers and pods
 brew install podman-desktop
 ```
 
@@ -272,7 +272,7 @@ For Docker alternative setup with Podman, see [this guide](https://nilesh93.medi
 
 ### System Monitoring
 ```bash
-brew install macmon
+brew install macmon                  # Real-time system monitoring with CPU, memory, and network stats
 ```
 
 Learn more about [macmon](https://github.com/vladkens/macmon).
@@ -281,7 +281,7 @@ Learn more about [macmon](https://github.com/vladkens/macmon).
 
 ### Installation
 ```bash
-brew install git
+brew install git                     # Distributed version control system for tracking code changes
 ```
 
 Verify installation:
@@ -361,27 +361,25 @@ git clone git@github.com:username/repository.git
 ### Ollama
 Install Ollama for local AI model management:
 ```bash
-brew install --cask ollama
+brew install --cask ollama           # Run large language models locally on your machine
 ```
 
 Pull useful models:
 ```bash
-ollama pull llama3
-ollama pull starcoder2:3b
-ollama pull qwen2.5-coder:7b
-ollama pull deepseek-r1:7b
-ollama pull qwen2.5:14b
+ollama pull qwen2.5-coder:7b         # Alibaba's coding-focused language model (4.7 GB)
+ollama pull llama3.1:8b              # Meta's latest general-purpose language model (4.9 GB)
+ollama pull gemma3n:latest           # Google's efficient language model (7.5 GB)
 ```
 
 Test your installation:
 ```bash
-ollama run deepseek-r1:7b
+ollama run qwen2.5-coder:7b
 ```
 
 ### Open WebUI
 Install Open WebUI for a web-based interface to your local models:
 ```bash
-docker pull ghcr.io/open-webui/open-webui:main
+docker pull ghcr.io/open-webui/open-webui:main    # Web interface for interacting with local AI models
 ```
 
 Run with authentication disabled for single-user setup:
@@ -406,35 +404,35 @@ brew install mas                       # Mac App Store CLI
 
 Install Kindle from the App Store, or use:
 ```bash
-mas install 302584613  # Kindle
+mas install 302584613  # Kindle - e-book reader for Amazon's digital library
 ```
 
 Install Perplexity.ai:
 ```bash
-mas install 6714467650
-brew install --cask claude             # Claude desktop app
-brew install --cask nordvpn            # VPN service
+mas install 6714467650              # Perplexity - AI-powered search and research assistant
+brew install --cask claude         # Claude desktop app - AI assistant for coding and writing
+brew install --cask nordvpn        # VPN service - secure internet connection and privacy protection
 ```
 
-Install iMCP from [imcp.app/download](https://imcp.app/download)
+Install iMCP from [imcp.app/download](https://imcp.app/download) - Model Context Protocol server for AI integrations
 
 ## Communication Tools
 
 ```bash
-brew install --cask zoom               # Video conferencing
-brew install --cask webex              # Cisco WebEx
-brew install --cask whatsapp           # Messaging
-brew install --cask alfred             # Productivity launcher
+brew install --cask zoom               # Video conferencing platform for meetings and webinars
+brew install --cask webex              # Cisco WebEx - enterprise video conferencing solution
+brew install --cask whatsapp           # Cross-platform messaging app with end-to-end encryption
+brew install --cask alfred             # Productivity launcher with workflows and file search
 ```
 
 ## Productivity Applications
 
 ```bash
-brew install --cask arc                        # Modern web browser
-brew install --cask google-chrome              # Web browser
-brew install --cask vlc                        # Media player
-brew install --cask microsoft-office-businesspro  # Office suite
-brew install --cask gimp                       # Image editor
+brew install --cask arc                        # Modern web browser with workspaces and AI features
+brew install --cask google-chrome              # Fast web browser with extensive extension ecosystem
+brew install --cask vlc                        # Universal media player supporting all video/audio formats
+brew install --cask microsoft-office-businesspro  # Complete office suite with Word, Excel, PowerPoint
+brew install --cask gimp                       # Free image editor and graphics manipulation program
 ```
 
 ---
