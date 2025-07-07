@@ -30,9 +30,130 @@ A comprehensive guide for setting up a new MacBook Pro for development work, inc
 ### 3. System Customization
 - Configure system settings
 - Set up Touch ID (if available)
-- Customize desktop and dock
-- Configure control center
-- Adjust display and appearance settings
+
+#### Customize Finder
+Finder is the heart of the macOS file system and by default, it is kind of a mess or atleast that is what I think.
+##### Decluttering the Sidebar
+The first thing I do is clean up the sidebar.
+
+Out with the default clutter like Tags, Movies, Music, Pictures, and iCloud. I never use them. Even AirDrop gets the axe.
+
+Instead, I pin folders that actually matter to me. These could be local project folders, external drives with current video work, or even cloud storage directories.
+
+The goal is to create a sidebar that works like muscle memory — I open Finder, and bam, everything I need is just a click away.
+
+Through Finder Settings, click Sidebar and only keep Applications, Documents, Downloads, user, iCloud drive, Shared, Laptop, External disks, CD/DVD/ios Devices, Connected servers.
+
+##### Switching to List View
+Next, I change the default view to List View.
+
+I also tweak the columns:
+
+I make Date Modified the first column and shorten the date format to keep things tidy.
+
+##### Path Bar & Status Bar: Finding My Way
+Have you ever found yourself deep in those subfolders and completely lost?
+
+Enabling the Path Bar under the View menu solves that.
+
+While I’m at it, I enable the Status Bar too. Now I can see how much space is left in any folder I’m in — super handy when dealing with large video files.
+
+##### Customizing the Toolbar: Make It Yours
+The default toolbar in Finder is kinda ‘meh’. So I customize it.
+
+Removed: Tags, Groups, Get Info (I can get that by right-clicking).
+
+Added: AirDrop — and this is why I removed it from the sidebar. I use it occasionally, but I don’t want it staring at me 24/7.
+
+Cleaned up the Share Button by editing extensions and removing stuff I never use.
+
+#### Smarter Search & File Associations
+By default, Finder searches your entire Mac — but most of the time, I just want to search the folder I’m in. So I change that in Finder Settings → Advanced to “Search current folder”.
+
+#### Fixing the “Recents” Folder
+I’ve always had a love-hate relationship with the Recents folder.
+
+Recents folder shows every file you’ve ever opened, which becomes a nightmare over time.
+
+Plus, it doesn’t show folders — and I usually want to get back to folders, not individual files.
+
+My Fix:
+I build a custom Smart Folder:
+
+Shows files opened in the last 7 days.
+Excludes apps and folders (using the Option key to get a “None of the following” filter when clicking the + criteria button).
+
+Saved it as “Recents” and pinned it to the sidebar.
+
+##### Making the Desktop Useful Again (Thanks, Widgets)
+I used to ignore my wallpaper because my desktop was always hidden behind a million windows. But the introduction of interactive desktop widgets changed everything.
+
+Now my desktop is a dashboard:
+
+- Fantastical Calendar — Click on a day and see what’s up.
+- HomeKit — Control lights, check on the garage door.
+- Weather Widget — For that glanceable forecast.
+- Battery Widget — Track my AirPods and mouse levels.
+- Shortcuts Folder — All my favorite macros a swipe away (activated with a thumb + three fingers gesture).
+
+Even better:
+
+Widgets turn monochrome when you open apps, and you can change this behavior under System Settings → Desktop & Dock → Widgets.
+
+For widgets I don’t need all the time, like my delivery tracker (Parcel), I tuck them away in the Control Center.
+
+##### Clean Desktop, Clean Mind
+Under Finder settings, I disable all desktop icons — external drives, connected servers, etc. I prefer my desktop to feel like a calm, neutral space — not a dumping ground.
+
+##### Dock Customization: Sleek and Efficient
+Removed all default apps.
+
+Resized the Dock.
+
+Set position to bottom (side docks might be “smarter,” but I can’t get used to them).
+
+Changed window minimize effect to Scale for faster performance.
+
+Enabled “Minimize windows into app icon” to avoid clutter.
+
+Disabled “Show recent applications” — I like a clean dock.
+
+##### Menu Bar: Trim the Fat
+A few small but impactful tweaks:
+- Show battery percentage (why isn’t this on by default?).
+- Add Bluetooth.
+- Remove Spotlight (I use Alfred instead — more on that later).
+
+##### Trackpad Settings: Make It Snappier
+Increase pointer speed — macOS’s default is sluggish.
+
+Enable Tap to Click (should be default, really).
+
+Disable Natural Scrolling — I prefer the screen to move in the direction I swipe.
+
+Three-Finger Drag:
+Go to System Settings → Accessibility → Pointer Control → Trackpad Options and enable Three-Finger Drag. It’s game-changing for moving windows around.
+
+##### System Settings: Final Touches
+Spotlight: Disable indexing of useless stuff like code headers and JSON files.
+
+Apple Watch Unlock: If you have one, enable unlock via Apple Watch.
+
+Touch ID: Add multiple fingerprints — different fingers, different angles.
+
+Network: Prioritize Ethernet over Wi-Fi if you use both.
+
+Keyboard Settings:
+Disable autocorrect (except double-space for period).
+
+Sleep: Extend time to sleep from 2 to 20 minutes.
+
+Login: Hide username and profile photo at login.
+
+Display Settings:
+Turn off auto-brightness and True Tone (for color accuracy).
+
+Enable Night Shift, or better yet, install f.lux for better control.
 
 ## System Configuration
 
@@ -499,6 +620,7 @@ brew install --cask onyx               # System maintenance
 brew install --cask keka               # Archive utility
 brew install --cask chatgpt            # OpenAI ChatGPT
 brew install mas                       # Mac App Store CLI
+brew install --cask flux-app # f.lux app for lights management
 ```
 
 Install Kindle from the App Store, or use:
