@@ -423,6 +423,10 @@ Features:
 
 Learn more at [Claude Sessions GitHub](https://github.com/iannuttall/claude-sessions).
 
+### Install yadm
+
+https://yadm.io/docs/getting_started
+
 ### Claude Usage Monitoring
 
 Install [https://github.com/ryoppippi/ccusage](https://github.com/ryoppippi/ccusage)
