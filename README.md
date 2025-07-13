@@ -631,13 +631,16 @@ mas install 302584613  # Kindle - e-book reader for Amazon's digital library
 Install Perplexity.ai:
 ```bash
 mas install 6714467650              # Perplexity - AI-powered search and research assistant
+
 brew install --cask claude         # Claude desktop app - AI assistant for coding and writing
+
 brew install --cask nordvpn        # VPN service - secure internet connection and privacy protection
 ```
 
 Install iMCP from [imcp.app/download](https://imcp.app/download) - Model Context Protocol server for AI integrations
 
 Install Memory MCP from [src/memory/README.md](src/memory/README.md)
+
 Install Perplexity MCP from [https://github.com/ppl-ai/modelcontextprotocol](https://github.com/ppl-ai/modelcontextprotocol) 
 
 ## Communication Tools
