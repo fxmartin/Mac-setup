@@ -425,49 +425,7 @@ Learn more at [Claude Sessions GitHub](https://github.com/iannuttall/claude-sess
 
 ### Claude Usage Monitoring
 
-Monitor your Claude token usage with the Claude Code Usage Monitor tool:
-
-```bash
-# Install via UV (recommended)
-uv tool install claude-usage-monitor
-
-# Or install via pip
-pip install claude-usage-monitor
-```
-
-Basic usage:
-```bash
-# Monitor usage with default Pro plan settings
-claude-monitor
-
-# Monitor Max5 plan (~35,000 tokens)
-claude-monitor --plan max5
-
-# Monitor Max20 plan (~140,000 tokens)
-claude-monitor --plan max20
-```
-
-Configuration options:
-```bash
-# Set custom reset time (3 AM)
-claude-monitor --reset-hour 3
-
-# Set timezone
-claude-monitor --timezone US/Eastern
-
-# Force theme
-claude-monitor --theme dark
-```
-
-Features:
-- Real-time token usage tracking
-- Color-coded progress bars
-- Predictive token depletion analysis
-- Automatic plan detection
-- Customizable reset times and timezones
-- Smart theme detection
-
-Learn more at [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor).
+Install [https://github.com/ryoppippi/ccusage](https://github.com/ryoppippi/ccusage)
 
 ### Context7 MCP
 
