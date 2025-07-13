@@ -637,6 +637,9 @@ brew install --cask nordvpn        # VPN service - secure internet connection an
 
 Install iMCP from [imcp.app/download](https://imcp.app/download) - Model Context Protocol server for AI integrations
 
+Install Memory MCP from [src/memory/README.md](src/memory/README.md)
+Install Perplexity MCP from [https://github.com/ppl-ai/modelcontextprotocol](https://github.com/ppl-ai/modelcontextprotocol) 
+
 ## Communication Tools
 
 ```bash
