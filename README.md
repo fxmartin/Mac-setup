@@ -19,6 +19,7 @@ A comprehensive guide for setting up a new MacBook Pro for development work, inc
 - Select your language from the initial screen
 - Choose your region/country
 - Optional: Configure accessibility settings (can be done later if preferred)
+- Connect to WIFI
 
 ### 2. Account Configuration
 - Sign in with your Apple ID (or create a new one)
