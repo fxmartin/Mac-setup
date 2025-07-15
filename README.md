@@ -460,6 +460,10 @@ brew install macmon                  # Real-time system monitoring with CPU, mem
 
 Learn more about [macmon](https://github.com/vladkens/macmon).
 
+### Sequential Thinking
+
+Install the MCP [MCP Sequential Thinking](https://playbooks.com/mcp/sequential-thinking)
+
 ## Git Configuration
 
 ### Installation
