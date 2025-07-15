@@ -547,6 +547,12 @@ Clone a repository using SSH to verify everything works:
 git clone git@github.com:username/repository.git
 ```
 
+### Install GitHub Client
+Github Client must be installed as it is used by Claude Code
+```bash
+brew install gh
+```
+
 ## AI/ML Tools
 
 ### Ollama
@@ -620,14 +626,13 @@ Install Perplexity MCP from [https://github.com/ppl-ai/modelcontextprotocol](htt
 brew install --cask zoom               # Video conferencing platform for meetings and webinars
 brew install --cask webex              # Cisco WebEx - enterprise video conferencing solution
 brew install --cask whatsapp           # Cross-platform messaging app with end-to-end encryption
-brew install --cask alfred             # Productivity launcher with workflows and file search
+brew install --cask raycast            # Productivity launcher with workflows and file search
 ```
 
 ## Productivity Applications
 
 ```bash
 brew install --cask arc                        # Modern web browser with workspaces and AI features
-brew install --cask google-chrome              # Fast web browser with extensive extension ecosystem
 brew install --cask vlc                        # Universal media player supporting all video/audio formats
 brew install --cask microsoft-office-businesspro  # Complete office suite with Word, Excel, PowerPoint
 brew install --cask gimp                       # Free image editor and graphics manipulation program
