@@ -462,7 +462,11 @@ Learn more about [macmon](https://github.com/vladkens/macmon).
 
 ### Sequential Thinking
 
-Install the MCP [MCP Sequential Thinking](https://playbooks.com/mcp/sequential-thinking)
+Install the [MCP Sequential Thinking](https://playbooks.com/mcp/sequential-thinking)
+
+### Fetch MCP
+
+Install the [MCP Fetch](https://github.com/zcaceres/fetch-mcp#)
 
 ## Git Configuration
 
