@@ -1,4 +1,4 @@
-# macOS Development Environment Setup
+# MacOS Development Environment Setup
 
 A comprehensive guide for setting up a new MacBook Pro for development work, including security configurations, development tools, and productivity applications.
 
