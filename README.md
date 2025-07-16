@@ -468,6 +468,11 @@ Install the [MCP Sequential Thinking](https://playbooks.com/mcp/sequential-think
 
 Install the [MCP Fetch](https://github.com/zcaceres/fetch-mcp#)
 
+### Install Quadrant Server and MCP
+
+Install a [local Qadrant server with docker](https://qdrant.tech/documentation/quickstart/).
+Install the [Qadant MCP Server](https://github.com/qdrant/mcp-server-qdrant#).
+
 ## Git Configuration
 
 ### Installation
