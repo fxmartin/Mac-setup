@@ -610,6 +610,8 @@ Install Kindle from the App Store, or use:
 mas install 302584613  # Kindle - e-book reader for Amazon's digital library
 ```
 
+(Install utilities for DRM management)[https://michaelharley.net/posts/2023/01/10/how-to-setup-calibre-to-remove-drm-from-ebooks-on-linux/]
+
 Install Perplexity.ai:
 ```bash
 mas install 6714467650              # Perplexity - AI-powered search and research assistant
